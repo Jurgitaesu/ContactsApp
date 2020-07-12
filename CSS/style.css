@@ -1,0 +1,123 @@
+/******************
+CSS RESET 
+******************/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/******************
+HEADER 
+******************/
+
+h1 {
+    text-align: center;
+    margin: 1em auto;
+}
+
+/*********************
+MAIN 
+*********************/
+
+main {
+    margin: 1em 8em;
+    font-size: 1em;
+}
+
+.table-container {
+    font-size: 1em;
+    width: 80%;
+    margin: auto;
+}
+
+.table-row {
+    display: flex;
+}
+
+.table-column {
+    text-overflow: hidden;
+}
+
+.first-name {
+    flex-basis: 15%;
+}
+
+.last-name {
+    flex-basis: 15%;
+}
+
+.date-of-birth {
+    flex-basis: 15%;
+}
+
+.phone {
+    flex-basis: 15%;
+}
+
+.email {
+    flex-basis: 15%;
+}
+
+.address {
+    flex-basis: 15%;
+}
+
+.header {
+    font-weight: bolder;
+}
+
+.edit,
+.delete,
+.add-entry-column {
+    flex-basis: 5%;
+    text-align: center;
+    cursor: pointer;
+}
+
+#newContactModal {
+    width: 500px;
+    margin: 0 auto;
+
+}
+
+#newContactModal input {
+    display: block;
+    padding: 10px;
+    border: 2px;
+    width: 100%;
+}
+
+.input-err {
+    background-color: red;
+}
+
+#backdrop {
+    width: 100%;
+    height: 100%;
+}
+
+h3 {
+    text-align: center;
+}
+
+button {
+    display: block;
+    padding: 10px;
+    margin: 10px auto;
+    cursor: pointer;
+
+}
+
+button:hover {
+    padding: 9px;
+}
+
+.disable-modal {
+    visibility: hidden;
+}
+
+.enable-modal {
+    visibility: visible;
+}
